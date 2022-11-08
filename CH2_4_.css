@@ -1,0 +1,35 @@
+body {
+    background: url("pingouin.png");
+    background-size: 100%;
+    background-position-y: 6%;
+    background-color: rgb(119,136,68);
+    color: black;
+}
+
+h1 {
+    color: #8E15F1;
+}
+
+h2 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section {
+    background-color: rgba(186,122,94, 0.5);
+}
+
+article {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgba(220,61,47, 0.5);
+}
+
+cite {
+    color: white;
+}
+
+.valide {
+    color: white;
+}
