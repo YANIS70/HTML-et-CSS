@@ -1,35 +1,40 @@
 body {
-    background: url("pingouin.png");
-    background-size: 100%;
-    background-position-y: 6%;
-    background-color: rgb(119,136,68);
-    color: black;
+    background-color: dimgrey ;
+    color: whitesmoke;
 }
 
-h1 {
-    color: #8E15F1;
-}
-
-h2 {
-    color: white;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-section {
-    background-color: rgba(186,122,94, 0.5);
-}
-
-article {
+.paragraphe1{
+    background: url("pingouin.png") no-repeat center;
     margin-left: 2%;
     margin-right: 2%;
-    background-color: rgba(220,61,47, 0.5);
+    background-color: cornflowerblue;
+    border: 7px orange dashed;
+    background-position: left;
+    background-size: contain;
+    margin-top: 1%;
+    padding: 10px;
 }
 
-cite {
-    color: white;
+.paragraphe2{
+    background: url("pingouin_rogner.png") no-repeat center;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: darkolivegreen;
+    border: 7px orange dashed;
+    background-position: left;
+    background-size: contain;
+    background-clip: padding-box;
+
 }
 
-.valide {
-    color: white;
+.paragraphe3{
+    background: url("pingouin.png") no-repeat center;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: violet;
+    border: 7px orange dashed;
+    background-position: left;
+    background-size: contain;
+    background-clip: content-box;
 }
